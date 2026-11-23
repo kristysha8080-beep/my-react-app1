@@ -27,7 +27,7 @@ const loadCurrentUser = () => {
 };
 
 export default function App() {
-  const [users, setUsers] = useState(loadUsers);
+  const [, setUsers] = useState(loadUsers);
   const [currentUser, setCurrentUser] = useState(loadCurrentUser);
   const [stories, setStories] = useState(STORIES);
   const [activeStory, setActiveStory] = useState(null);
