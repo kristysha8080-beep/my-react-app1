@@ -24,7 +24,7 @@ const loadUsers = () => {
 
 const loadCurrentUser = () => {
   return localStorage.getItem("story-current-user") || null;
-};
+}};
 
 export default function App() {
   const [, setUsers] = useState(loadUsers);
